@@ -19,6 +19,7 @@ print("The list that contain the Unicode points by COMPREHENSION:",list(unicod1)
 unicod2=list(map(lambda x: ord(x),S))
 print("The list that contain the Unicode points by using MAP:",list(unicod2))
 
+# Using List
 L=[]
 for i in S:
     m = ord(i)
