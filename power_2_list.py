@@ -48,4 +48,9 @@ for i in range (0,8):
 """    
 t=timeit.timeit(stmt=mycode,number=1000)
 print("Time taken to append the list using 'lambda'(2**x outdide the loop) :",t/1000)
+
+"""
+All above method suggest that taking 2**x outside the loop doesn't improve the timing
+
+"""
     
