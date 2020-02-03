@@ -5,7 +5,7 @@
 
 float * fun(float *p)			
 {	float size=100;
-	static float out[2], mean=0.0,variance=0.0;		//out[2] is the local array to store mean and variance
+	static float out[2], mean=0.0,variance=0.0;		//out[2] is the local array so its adress can't be passed to the main, for this reason we choose static but you can also define array with malloc that would also work
 	for(int i=0;i<size;++i)
 	{
 		mean+=p[i];
