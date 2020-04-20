@@ -14,3 +14,4 @@ mycode="f.fibonacci(100)"
 t=timeit.timeit(setup=mysetup,stmt=mycode,number=1000)
 print("Time taken to print 100 fibonacci numbers:",t/1000)
 
+#
