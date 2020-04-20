@@ -28,10 +28,18 @@ for i in range(1,N+1):
     y0=y[i]
     #print(y[i])    
 
-plt.plot(t,y,marker='*',label='Euler solution')
-plt.plot(t,t/(1+np.log(t)),label='Analytical solution')
-plt.xlabel("time (t)")
-plt.ylabel("y (t)")
+z=t/(1+np.log(t))
+fig=plt.figure()
+ax1=fig.add_subplot(121)
+ax2=fig.add_subplot(122)
+ax1.plot(t,y,marker='*',label='Euler solution')
+ax1.plot(t,z,label='Analytical solution')
+ax1.set(xlabel="time(t)",ylabel="y (t)")
+plt.legend()
+
+ax2.plot(t,abs(t-z)/t,marker='o',label='Relative Error')
+ax2.plot(t,abs(t-z),marker='o',label='Absolute Error')
+ax2.set(xlabel="time(t)",ylabel="Error")
 plt.legend()
 plt.savefig('Q2graph.pdf',dpi=1000)
 plt.show()
