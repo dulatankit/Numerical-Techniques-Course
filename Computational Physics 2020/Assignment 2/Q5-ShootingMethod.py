@@ -96,7 +96,7 @@ plt.show()
 print("Total number of iteration taken to converge within Tolerance=1e-4 are =",k)
 
 """
-plt.plot(t,w[:,0],marker='o',markersize=1.5) 
+plt.plot(t,w[:,0],marker='o',markersize=1.5)       #these were used to obtain extra candidate for the solution ,since this method converge in just 3 iteration.
 plt.plot(t,w[:,1],marker='o',markersize=2)
 plt.plot(t,w[:,2],'o',markersize=2,label='numerically true solution')
 plt.plot(t,z[:,0],marker='o',markersize=2)
