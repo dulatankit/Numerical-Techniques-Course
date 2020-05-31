@@ -31,7 +31,7 @@ plt.plot(x,g(x),label='Envolpe PDF')
 plt.legend()
 
 x1=np.random.rand(N)
-x1=-np.log(2*x1)
+x1=-np.log(x1)
 y=np.random.rand(N)*g(x1)
 plt.scatter(x1,y,marker='o',color='r',s=5)
 
