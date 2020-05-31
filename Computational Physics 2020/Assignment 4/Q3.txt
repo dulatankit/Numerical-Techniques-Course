@@ -1,0 +1,5 @@
+Time taken in the above Q1 & Q2 for generating 10,000 random numbers has been calculated in their respective code:
+
+Time taken by Q1 (Congruential Method) is = 5.85e-03
+
+Time taken by Q2 (np.random.randn) is = 1.05e-04
