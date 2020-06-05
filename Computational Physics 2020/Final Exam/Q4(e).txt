@@ -1,0 +1,10 @@
+Q4(e)
+Ans:  1)Since the integration of power spectrum of random numbers gives the statistical variance of the input random array, so by
+         calculating the variance using power spectrum and then comparing it with actual value of variance (which can be calculated using library function)
+         i can say weather my power spectrum is good enough or not.
+
+         since from code ,variance calculated using power spectrum is 0.050013953261204495, while the actual variance of the random array is 0.08574521038255833.
+         The two values are very close to each other, so power spectrum calculated is a good measure of statistics of the input random array.
+
+        2) Also random array is fluctuating in between 0 and 1 for all time, so on large time scales , and variance is very small (0.085) so the function is more or less a constant valued,
+	and since the fourier transform of a constant function is dirac delta function, that's what i am getting.

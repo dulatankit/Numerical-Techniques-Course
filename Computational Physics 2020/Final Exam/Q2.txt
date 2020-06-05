@@ -1,0 +1,23 @@
+Q2:
+
+Ans:
+(a)  numpy.fft.fft(sample,norm='ortho')   #in python
+
+(b)  numpy.linalg.qr(A)		#in python
+
+(c)  numpy.random.lognormal(mean=,sigma=,size=)	#in python
+
+(d)  scipy.integrate.solve_ivp(fun,t_span,y0,method='DOP853')	#in python
+
+(e)   numpy.linalg.svd(A)		#in python
+
+(f)   emcee.EnsembleSampler(nwalkers,ndim,log_p,args=())   #in python using emcee library
+
+(g)  scipy.integrate.ode().set_integrator('dopri5')	#in python
+
+(h)  int gsl_monte_plain_integrate( f,xl[], xu[], dim,  calls, r, gsl_monte_plain_state * s, double * result, double * abserr)   # in c from gsl library
+     also, int gsl_monte_vegas_integrate( f, xl[],xu[], dim, calls, r, gsl_monte_vegas_state * s, double * result, double * abserr)  # in  c from gsl library
+
+(i) scipy.integrate.solve_bvp()  #in python
+
+(j)  numpy.linalg.eig(A)    #in python

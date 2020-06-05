@@ -1,0 +1,8 @@
+The solution is correct because:
+1) when number of sampled point on x axis increased beyond N=80, the solution doesn't change , that mean the it has converged to its actual analytical value.
+    Here below table list the value of function at end point as function of number of points on which x-axis is sampled.
+N	y1	y2
+40	0.7376871065	-0.36884355325
+80	0.7376871064	-0.36884355323
+160	0.7376871064	-0.36884355323
+

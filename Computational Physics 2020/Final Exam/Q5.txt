@@ -1,0 +1,18 @@
+Q5:
+
+Ans: Criteria for choosing a software library for a computational physics task.
+
+1) Review/User experience  : Other people's experiences are useful in indicating the potential  and problems of the software package.
+
+2)Cost : Software cost and its annual maintenance cost, need to be considered when we have 5 options.
+
+3)Efficiency : The one which which runs more efficiently in term of machine time and storage requirements.
+	    Better efficiency could be either it uses a good programming language or it has better algorithms to solve the problems.
+
+4) Interface & Integration : Software package should be able to export and import data to and from the other packages of the same kind.
+		           e.g. Importing the header files of 'c' in python.
+
+5) Ease of Use: The one which is more user friendly will be preffered.
+
+6) Trend of using the library: It's good if it is commonly used library, that means most people trust on this as well it will be easy 
+			in that case to understand your work for others, to whom you share your work.

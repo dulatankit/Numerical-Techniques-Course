@@ -1,0 +1,8 @@
+Two Singular values of matrix A are:
+1) 2.449489742783178
+2) 1.0
+
+Three Singular values of matrix B are:
+1) 1.9999999999999996
+2) 1.0
+3) 0.9999999999999997
